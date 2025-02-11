@@ -29,7 +29,7 @@ class DefaultCredentialConfig implements DatabaseConfig {
         },
         options: {
           encrypt: true,
-          trustServerCertificate: false,
+          trustServerCertificate: true,
           enableArithAbort: true,
           connectTimeout: 30000,
           requestTimeout: 30000,
